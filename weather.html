@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-weather/style.css">
+    <script src="./js/weather.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Vær Appinj</h1>
+    </header>
+
+    <main>
+        <section>
+            <h1>Værmelding <span id="cityNameBergen">Bergen</span></h1>
+            <label for="placeBergen">Place:</label>
+            <input type="text" id="placeBergen" name="placeBergen" value="Bergen, Norway">
+            <button class="fetchWeatherButton" data-weather-div-id="weatherBergen">søk</button>
+            <div id="weatherBergen"></div>
+        </section>
+    
+        <section>
+            <h1>Værmelding <span id="cityNameLonset">Lønset</span></h1>
+            <label for="placeLonset">Place:</label>
+            <input type="text" id="placeLonset" name="placeLonset" value="Lønset, Norway">
+            <button class="fetchWeatherButton" data-weather-div-id="weatherLonset">søk</button>
+            <div id="weatherLonset"></div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
